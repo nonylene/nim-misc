@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug ./bin/debug",
+      "type": "lldb-mi",
+      "request": "launch",
+      "target": "./bin/debug",
+      "cwd": "${workspaceRoot}",
+      "internalConsoleOptions": "openOnFirstSessionStart"
+      // "terminal": ""
+    }
+  ]
+}
